@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bookshelf Apps</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <header>
+      <h1>Bookshelf</h1>
+      <input id="searchBox" type="text" name="find" placeholder="cari buku dengan judul" value="">
+    </header>
+
+    <div class="bookshelf">
+      <div class="addBook">
+        <form id="form1">
+          <h2>Masukkan Buku Baru</h2>
+          <div class="kolomInput">
+            <label for="title">Judul</label>
+            <input id="title" type="text" value="" required>
+          </div>
+          <div class="kolomInput">
+            <label for="author">Penulis</label>
+            <input id="author" type="text" value="" required>
+          </div>
+          <div class="kolomInput">
+            <label for="year">Tahun</label>
+            <input id="year" type="number" value="" required>
+          </div>
+          <div class="input_inline">
+            <label for="check">Selesai dibaca</label>
+            <input id="check" type="checkbox" unchecked>
+          </div>
+          <input id="btn-submit" type="submit" value="Submit">
+        </form>
+      </div>
+      <div class="notFinishedBook">
+        <h2>Belum Selesai Dibaca</h2>
+        <div class="" id="belum">
+        </div>
+      </div>
+      <div class="finishedBook">
+        <h2>Selesai Dibaca</h2>
+        <div class="" id="selesai">
+        </div>
+      </div>
+    </div>
+
+    <br><br><br>
+    <footer>
+      <p>Dibuat dengan sepenuh hati ❤️</p>
+    </footer>
+    <script src="js/script.js" type="text/javascript"></script>
+  </body>
+</html>
